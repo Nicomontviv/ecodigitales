@@ -1,0 +1,284 @@
+
+/* Estilos generales */
+html{
+    width: 100%;
+    overflow-x: hidden;
+}
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'REM', sans-serif;
+    color: white;
+    background: linear-gradient(to bottom, #8a2be2, #a98de2);
+    animation: gradientAnimation 10s ease-in-out infinite alternate;
+    overflow-x: hidden;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 0% 100%;
+    }
+  }
+  
+  .header {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav li {
+    margin-right: 20px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .hero {
+    background-image: url("hero-bg.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7700;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+
+  }
+  
+ /*SLIDER*/
+  
+  
+  
+
+
+  
+ .h2courses{
+    font-family: 3vw;
+    text-shadow: 1px 1px black;
+ }
+
+
+  
+/*    nuevo slider*/
+#wrapper {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #carousel {
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+  
+  #carousel::-webkit-scrollbar {
+    height: 0;
+  }
+  
+  #prev,
+  #next {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: white;
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    outline: 0;
+    cursor: pointer;
+    position: absolute;
+  }
+  
+  #prev {
+    top: 50%;
+    left: 0;
+    transform: translate(50%, -50%);
+    display: none;
+  }
+  
+  #next {
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+  }
+  
+  #content {
+    display: grid;
+    grid-gap: 200px;
+    grid-auto-flow: column;
+    margin: auto;
+    box-sizing: content-box;
+  }
+  
+  .item {
+   
+    background: green;
+  }
+
+  .courses {
+    text-align: center;
+    padding: 50px 0;
+  }
+  .course {
+    background-color: #333333;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 150%;
+  
+  }
+  
+  .course img {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .course h3 {
+    margin-top: 10px;
+  }
+  
+  .course p {
+    margin-top: 5px;
+  }
+  
+  .course-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #ff7700;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+/*--------------SECCION ABOUT US---------------*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .about-section {
+    background-color: #000000;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .h2-aboutus {
+    color: #c6c4c4;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .p-aboutus {
+    color: #c6c4c4;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+
+  /*--------SECCION CONTACTO ---------------------------*/
+  .contacto {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .contacto h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contacto form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .contacto label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contacto input,
+  .contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+  }
+  
+  .contacto input:focus,
+  .contacto textarea:focus {
+    border-color: #8a2be2;
+  }
+  
+  .contacto button {
+    background-color: #ff7700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .contacto button:hover {
+    background-color: #a98de2;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  /*ADAPTACION RESPONSIVE*/
+  @media (max-width: 767px) {
+    .nav {
+      display: none;
+    }
+  }
