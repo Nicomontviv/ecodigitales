@@ -184,18 +184,73 @@ body {
     text-decoration: none;
     border-radius: 5px;
   }
+/*-------------TESTIMONIOS-----------------------------------*/
 
-/*--------------SECCION ABOUT US---------------*/
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+.testimonials-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.testimonial {
+  background-color: #ffffffb5;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: calc(33.33% - 20px);
+  padding: 20px;
+  margin: 20px;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 10px;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonial-content h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.testimonial-content p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.rating img {
+  width: 80px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .testimonials-section {
+    flex-direction: column;
   }
+
+  .testimonial {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+/*--------------SECCION ABOUT US---------------*/
+
   
   .about-section {
     background-color: #000000;
     padding: 50px 0;
     text-align: center;
+    margin-bottom: 100px;
   }
   
   .about-content {
@@ -216,7 +271,35 @@ body {
     margin-bottom: 20px;
   }
   
+/*---------------SECCION FAQ-----------------*/
 
+.faq {
+  margin-top: 100px;
+  border-radius: 15px;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #8a2be2;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 15px;
+}
+
+.answer {
+  display: none;
+  padding: 10px;
+  color: #333;
+  background-color: #f0f0f0;
+  font-size: 24px;
+
+}
   /*--------SECCION CONTACTO ---------------------------*/
   .contacto {
     text-align: center;
