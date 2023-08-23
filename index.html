@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Agrega estos enlaces en el head de tu HTML -->
+  <!--FAV-ICON-->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
  
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -206,11 +212,40 @@
     </form>
   </section>
   
- 
+ <!-------CHATBOT------------------------>
+ <div class="chat-icon" id="chatIcon">
+  <img class="imagen-icon" src="chatbot.png" alt="Chat Icon">
+</div>
+
+<div class="chat-window" id="chatWindow">
+  <div class="chat-header">
+      <span>Chatbot</span>
+      <button id="closeChat">&times;</button>
+  </div>
+  <div class="chat-content" id="chatContent">
+      <div class="bot-message">
+          <p>Hola! ¿En qué puedo ayudarte?</p>
+      </div>
+  </div>
+  <div class="typing-indicator" id="typingIndicator">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+  </div>
+  <div class="user-input">
+      <input type="text" id="userInput" placeholder="Escribe tu mensaje...">
+      <button class="button-chat" id="sendMessage">Enviar</button>
+  </div>
+</div>
+
+
 
   <footer class="footer">
     <p>&copy; 2023 EcoDigitales. Todos los derechos reservados.</p>
   </footer>
+
+
+  <script src="chatbot.js"></script>
   <script src="script.js" ></script>  
   <script src="faq.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
