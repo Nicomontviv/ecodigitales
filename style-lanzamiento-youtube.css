@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'REM', sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    text-align: center;
+}
+.imagentitulo{
+    width: 50vw;
+    height: 50vw;
+}
+
+.h1titulo {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.ultitulo {
+    font-size: 30px;
+    text-align: left;
+}
+
+
+.seccion-video__videobox{
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  .seccion-video__container{
+      margin: 0px;
+      margin-top: 5%;
+      padding-left: 0;
+      height: 60vw;
+      max-height: 1080px;
+      width:80vw;
+      max-width: 2100px;
+      display: inline-block;
+      position: relative;
+      left: 10%;
+      }
+  
+  .seccion-video__video{
+     width: 100%;
+     height: 100%;
+  }
+
+button {
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Estilos específicos para el botón de WhatsApp */
+.whatsapp-button {
+    background-color: #25d366;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+}
+
+.whatsapp-button-enlace{
+    text-decoration: none;
+    color: #fff;
+}
+
+.testimonials-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .testimonial {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    margin: 10px;
+  }
+  
+  .circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 10px;
+  }
+  
+  .circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .testimonial-content h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .testimonial-content p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #414040;
+  }
+  
+  .rating img {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  @media (max-width: 768px) {
+    .testimonials-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .testimonial {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 20px;
+      
+    }
+  }
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+  }
