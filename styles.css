@@ -72,6 +72,7 @@ body {
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    margin: 15px;
 
   }
   
@@ -372,8 +373,8 @@ body {
 /*-------------------CHATBOT-------------------*/
 .chat-icon {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 40px;
+  right: 40px;
   cursor: pointer;
 }
 .imagen-icon{
@@ -392,7 +393,7 @@ body {
 }
 @media (max-width: 768px){
   .chat-window{
-    width: 300px;
+    width: 350px;
   }
 }
 
