@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6Lfn7VYoAAAAAAKGjjHcQrj4DRQ0B1pHlsxtIoaX"></script>
+        ...
+       
+    <title>Document</title>
+</head>
+<body>  
+        <script>
+        function onClick(e) {
+          e.preventDefault();
+          grecaptcha.enterprise.ready(async () => {
+            const token = await grecaptcha.enterprise.execute('6Lfn7VYoAAAAAAKGjjHcQrj4DRQ0B1pHlsxtIoaX', {action: 'LOGIN'});
+            // IMPORTANT: The 'token' that results from execute is an encrypted response sent by
+            // reCAPTCHA Enterprise to the end user's browser.
+            // This token must be validated by creating an assessment.
+            // See https://cloud.google.com/recaptcha-enterprise/docs/create-assessment
+          });
+        }
+        </script>
+<iframe width="940" height="1305" src="https://2afe7afe.sibforms.com/serve/MUIFADV8hsnksg34eX3LymUR3HHBZhOT2L3c_zTBIEK9ltRNdm0EuqU3pvraDBj5qXksBjAdEOiuXBv1lA_LIhe3OviUAOlbdZ4qDQqvNdrVbMORLt9Ua8o1s6wLUg-b_bP0fYCuTRtCs5_-hcT7tZtkr91YToyVM_jR1Jig4Fvm1F6dr588s0i2NZz_aTdM19NmwXL6Jn0IK_V-" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe></html>
