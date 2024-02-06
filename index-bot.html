@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hablar con Dios</title>
+  <link rel="stylesheet" href="bard-style.css">
+</head>
+<body>
+    <h1 class="titulo-principal"> La Respuesta de Dios</h1>
+    <h5 class="aclaraciones">Este es un proyecto de IA en el cual puedes hacer cualquier pregunta relacionada al amor, dinero o salud y se te contestará con una frase la biblia. <br>
+    <br>Solo puedes hacer una pregunta cada una hora <br></h5>
+  <div class="chat-container">
+    <div class="chat-box">
+      <div class="chat-messages" id="chatMessages">
+        <!-- Aquí aparecerán los mensajes -->
+      </div>
+    </div>
+    <div class="user-input">
+      <input type="text" id="userQuestion" placeholder="Haz una pregunta...">
+      <button onclick="sendMessage()" id="sendButton">Enviar</button>
+    </div>
+  </div>
+  
+  <div class="slider">
+    <h2 class="aclaraciones">Ejemplos</h2>
+    <div class="slide-container">
+      <img class="slide" src="ejemplo6.jpg" alt="Imagen 6">
+        <img class="slide" src="ejemplo1.jpeg" alt="Imagen 1">
+        <img class="slide" src="ejemplo2.jpg" alt="Imagen 2">
+        
+        <img class="slide" src="ejemplo4.jpg" alt="Imagen 4">
+        <img class="slide" src="ejemplo5.jpg" alt="Imagen 5">
+        
+        <!-- Agrega más imágenes aquí -->
+    </div>
+    <div class="navigation">
+        <button class="buttong prev-button">Anterior</button>
+        <button class="buttong next-button">Próximo</button>
+    </div>
+</div>
+
+  <div class="faq">
+    <h2 class="question">¿Como funciona ésto</h2>
+    <div class="answer">Puedes realizar una pregunta y se te va a contestar con un versículo de la biblia. </div>
+
+    <h2 class="question">¿La respuesta es literal?</h2>
+    <div class="answer">No, como todo versículo de la biblia, es una metáfora de libre interpretación.</div>
+
+    <h2 class="question">¿Puedo preguntar lo que sea?</h2>
+    <div class="answer">Puedes pregutnar lo que quieras, te recomendamos buscar algo relacionado con el amor, el dinero o la salud. </div>
+
+    <h2 class="question">¿Quien está detrás de ésta página?</h2>
+    <div class="answer"><a href="https://www.linkedin.com/in/nicolás-montanari-3a58191b8">YO</a></div>
+
+    <h2 class="question">¿Cuando puedo volver a preguntar?</h2>
+    <div class="answer">Puedes realizar una pregunta cada una hora.</div>
+  </div>
+   <script src="faq-bot.js"></script>
+  <script src="bard-script.js"></script>
+  <script src="ejemplos.js"></script>
+</body>
+</html>
