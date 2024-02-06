@@ -140,7 +140,7 @@ function getBibleRandomVerse(texto) {
         ];
         const bibleVersesIlegal = [
             "No malgastes mi tiempo",
-            "Mejor ve a dormir, hijo mío",
+            "Mejor ve a dormir, no puedo contestar eso",
             "No me involucro en temas ilegales",
             "No me hago cargo de tus decisiones, pero vas a ser juzgado",
             "Es mejor que dejes de indagar, hijo mío",
@@ -148,8 +148,8 @@ function getBibleRandomVerse(texto) {
         
         ]
         const bibleVersesNada = [
-          "No hay nada que diga que resuelva lo que no quieres aceptar",
-          "Las respuestas siempre estuvieron dentro tuyo",
+          "No tengo frases de la biblia para contestar eso",
+          "La respuesta está en tu corazón",
           "¿Realmente esperas que una IA conteste eso? Si tu problema no es grave mejor consulta a un colega. Acabas de gastar tu pregunta",
           "La respuesta ya la sabes",
           "Creo que no",
